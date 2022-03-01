@@ -1,0 +1,783 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A pleasant new song, in praise of the leather bottell.  To the tune of, The bottel-makers delight.</title>
+            <author>Wade, John, fl. 1660-1680.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1671-1674?</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 5 KB of XML-encoded text transcribed from 2 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B06559</idno>
+            <idno type="STC">Wing W168C</idno>
+            <idno type="STC">ESTC R234907</idno>
+            <idno type="EEBO-CITATION">52529360</idno>
+            <idno type="OCLC">ocm 52529360</idno>
+            <idno type="VID">179221</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B06559)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 179221)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2780:22)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A pleasant new song, in praise of the leather bottell.  To the tune of, The bottel-makers delight.</title>
+                  <author>Wade, John, fl. 1660-1680.</author>
+               </titleStmt>
+               <extent>1 sheet ([2] p.) : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed for R. Burton,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>[between 1671 and 1674]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Caption title.</note>
+                  <note>In two columns.</note>
+                  <note>Imperfect: print show-through with some loss of text.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ballads, English --  17th century.</term>
+               <term>Broadsides --  England --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="ballad">
+            <pb facs="tcp:179221:1"/>
+            <head>A Pleaſant new <hi>SONG,</hi> in Praiſe of the Leather Bottell</head>
+            <argument>
+               <lg>
+                  <l>Shewing how Glaſſes and Pots are laid aſide,</l>
+                  <l>And Flaggons and Noggins they cannot abide,</l>
+                  <l>And let all Wives do what they can,</l>
+                  <l>'Tis for the praiſe and uſe of Man;</l>
+                  <l>And this you may very well be ſure,</l>
+                  <l>The Leather Bottel will longeſt endure:</l>
+                  <l>And I wiſh in Heaven his ſoul may dwell,</l>
+                  <l>That firſt deviſed the Leather Bottel.</l>
+               </lg>
+            </argument>
+            <opener>To the Tune of, <hi>The Bottel-makers Delight.</hi>
+            </opener>
+            <p>
+               <figure/>
+               <figure/>
+            </p>
+            <div n="1" type="part">
+               <lg>
+                  <l>GOd above that made <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> things,</l>
+                  <l>the Heav<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ns, the Earth, and all therein,</l>
+                  <l>The Ships that on the Sea do ſwim,</l>
+                  <l>to keep Enemies out that now comes in:</l>
+                  <l>And let them do all <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>'tis for the uſe and <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> of man,</l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>And I wiſh in <hi>Heaven</hi> his ſoul may dwell</hi>
+                     </l>
+                     <l>
+                        <hi>That firſt deviſed the Leather Bottel.</hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>Then what do you ſay to theſe Cans of Wood,</l>
+                  <l>in faith they <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, and cannot be good;</l>
+                  <l>For when a man he doth them ſend</l>
+                  <l>to be filled with Ale, as he doth intend,</l>
+                  <l>The bearer falleth by the way,</l>
+                  <l>and on the ground the li<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>uor doth lay.</l>
+                  <l>And then the Bearer <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> to <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>an</l>
+                  <l>and ſwears it is long of the Wooden Can<g ref="char:punc">▪</g>
+                  </l>
+                  <l>But had it been in a Leather Bottel,</l>
+                  <l>although he had fallen <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>t all had been well,</l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>And I wiſh, &amp;c.</hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>Then what do you ſay to theſe Glaſſes fine?</l>
+                  <l>yes, they ſhall have no praiſe of mine;</l>
+                  <l>For <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>n a co<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ny they are ſet</l>
+                  <l>
+                     <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap> aswe are met:</l>
+                  <l>Then if you <gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>ce to touch the Brim</l>
+                  <l>do<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap> all therein;</l>
+                  <l>Yf your <gap reason="illegible" extent="7 words">
+                        <desc>〈7 words〉</desc>
+                     </gap> fine</l>
+                  <l>the<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap> Wine:</l>
+                  <l>
+                     <gap reason="illegible" extent="1 line">
+                        <desc>〈1 line〉</desc>
+                     </gap>
+                  </l>
+                  <l>a young man <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>But had it been in <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> L<gap reason="illegible" extent="6 letters">
+                        <desc>••••••</desc>
+                     </gap> Bottel</l>
+                  <l>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd the <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap>, then all had been well.</l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>Then I wiſh, &amp;c.</hi>
+                     </l>
+                  </lg>
+               </lg>
+            </div>
+            <div n="2" type="part">
+               <pb facs="tcp:179221:1"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:179221:2"/>
+               <head>The Second Part</head>
+               <opener>to the ſame Tune.</opener>
+               <lg>
+                  <l>TH<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> what do you ſay to theſe black pots three?</l>
+                  <l>tr<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>, they ſhall have no praiſe of me,</l>
+                  <l>For when <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> his wife falls at ſtrife,</l>
+                  <l>
+                     <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>e, in faith in their life;</l>
+                  <l>T<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap> the Pot both,</l>
+                  <l>
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> are to <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> Broath.</l>
+                  <l>Th<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> the o<gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>be<gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> both <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> doth ſpill;</l>
+                  <l>But <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>other day</l>
+                  <l>for <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> ſo <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>nly away:</l>
+                  <l>But <gap reason="illegible" extent="6 words">
+                        <desc>〈◊◊◊◊◊◊〉</desc>
+                     </gap> Bottel,</l>
+                  <l>
+                     <gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap>, the other have h<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ld;</l>
+                  <l>And <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> till their hearts did ake,</l>
+                  <l>
+                     <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap> no harm would take.</l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>Then I wiſh, &amp;c.</hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>Then what <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap> the Siver Flagons fine?</l>
+                  <l>tr<gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap> of mine</l>
+                  <l>For <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hen a Lord he doth them ſend</l>
+                  <l>to <gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap> he doth <gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>nd;</l>
+                  <l>The <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>,</l>
+                  <l>b<gap reason="illegible" extent="6 letters">
+                        <desc>••••••</desc>
+                     </gap> it <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> and gay:</l>
+                  <l>
+                     <gap reason="illegible" extent="1 line">
+                        <desc>〈1 line〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ars he <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> Flaggon and man,</l>
+                  <l>There's ne<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> man or Gro<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>m</l>
+                  <l>but with his Leather Bottel may come.</l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>Then I wiſh, &amp;c.</hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>A Leather Bottel is good,</l>
+                  <l>Far better th<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> Glaſſes or Cans of Wood,</l>
+                  <l>For when a man is <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> in the Field,</l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> G<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ſſe<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Pots, no comfort will yield;</l>
+                  <l>Th<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="5 letters">
+                        <desc>•••••</desc>
+                     </gap>er <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> him by,</l>
+                  <l>he <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap> he is dry,</l>
+                  <l>It <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap> and comfort the brain,</l>
+                  <l>
+                     <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap>this <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> refrain.</l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>
+                           <gap reason="illegible" extent="1 line">
+                              <desc>〈1 line〉</desc>
+                           </gap>
+                        </hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>Alſo <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>he <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o do</l>
+                  <l>But <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> néer</l>
+                  <l>
+                     <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ld beer:</l>
+                  <l>At <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> meet,</l>
+                  <l>
+                     <gap reason="illegible" extent="1 line">
+                        <desc>〈1 line〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 line">
+                        <desc>〈1 line〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 line">
+                        <desc>〈1 line〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 line">
+                        <desc>〈1 line〉</desc>
+                     </gap>
+                  </l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>
+                           <gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>
+                        </hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>Likewiſe the merry Hay-makers they,</l>
+                  <l>when as they are turning and making their <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>In Summer weather, <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>a good bottel full then will do <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> no harm<g ref="char:punc">▪</g>
+                  </l>
+                  <l>And at noon-<gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſit t<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>em down;</l>
+                  <l>to drink in <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ir bottel<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> of Ale nut br<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>n<g ref="char:punc">▪</g>
+                  </l>
+                  <l>Then the L<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 line">
+                        <desc>〈1 line〉</desc>
+                     </gap>
+                  </l>
+                  <l>We co<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>for t<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap> hot with the heat <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>un<g ref="char:punc">▪</g>
+                  </l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>Then I wiſh &amp;c.</hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>Alſo the Leader, Lader, and the Pitcher,</l>
+                  <l>the Reaper, Hidger, and the Ditcher,</l>
+                  <l>The <gap reason="illegible" extent="5 letters">
+                        <desc>•••••</desc>
+                     </gap>r and the Raker <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>d all</l>
+                  <l>ther<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> flocks is <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> fall,</l>
+                  <l>And <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>his <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>But<gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> I <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> part <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>You <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> I will <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> my Leather Bott<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>Then I wiſh, &amp;c.</hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>Thus you <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> as it is <gap reason="illegible" extent="5 letters">
+                        <desc>•••••</desc>
+                     </gap>d with <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> full <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ll,</l>
+                  <l>Though <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> of it <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>mall<g ref="char:punc">▪</g>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>et t<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> a Lord, E<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>but at a Bottel doth take <gap reason="illegible" extent="6 letters">
+                        <desc>••••••</desc>
+                     </gap>t</l>
+                  <l>For when he is hunti<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>g of <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>he often doth wiſh for <gap reason="illegible" extent="2 words">
+                        <desc>〈◊◊〉</desc>
+                     </gap> of Béer;</l>
+                  <l>Likewiſe the m<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n t<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap> w<gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 words">
+                        <desc>〈◊◊◊〉</desc>
+                     </gap>,</l>
+                  <l>a Bo<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tel of Beer doth oft do him good.</l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>Then I wiſh, &amp;c.</hi>
+                     </l>
+                  </lg>
+               </lg>
+               <lg>
+                  <l>Then when this Bottel it doth grow old;</l>
+                  <l>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> will good liquor no longer h<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ld,</l>
+                  <l>Out of the ſide you may take a clout<g ref="char:punc">▪</g>
+                  </l>
+                  <l>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>d y<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ur ſhooes <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> t<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>y are out<g ref="char:punc">▪</g>
+                  </l>
+                  <l>El<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap> upon <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> pin</l>
+                  <l>it will <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>rve <gap reason="illegible" extent="5 words">
+                        <desc>〈◊◊◊◊◊〉</desc>
+                     </gap> in<g ref="char:punc">▪</g>
+                  </l>
+                  <l>As Linges, <gap reason="illegible" extent="4 words">
+                        <desc>〈◊◊◊◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>for young <gap reason="illegible" extent="1 chunk">
+                        <desc>…</desc>
+                     </gap>rs muſt have ſuch thin<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </l>
+                  <lg type="refrain">
+                     <l>
+                        <hi>Then I wiſh in Heaven his ſoul may dwel,</hi>
+                     </l>
+                     <l>
+                        <hi>That firſt deviſed the Leather Bottel.</hi>
+                     </l>
+                  </lg>
+               </lg>
+            </div>
+            <closer>
+               <signed>Iohn Wade</signed>
+            </closer>
+         </div>
+         <trailer>FINIS</trailer>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>L<gap reason="illegible" extent="5 letters">
+                     <desc>•••••</desc>
+                  </gap>
+               </hi> P<gap reason="illegible" extent="6 letters">
+                  <desc>••••••</desc>
+               </gap> for R. Burton <hi>at the</hi> Horſe-Head <hi>in</hi> Weſt-Smithfield.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
